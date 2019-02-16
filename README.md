@@ -4,7 +4,7 @@ Opens a new browser tab when Webpack loads. Very useful if you're lazy and don't
 ## Installation
 
 ```
-npm install open-browser-webpack-plugin --save-dev
+npm install opn-browser-webpack-plugin --save-dev
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ npm install open-browser-webpack-plugin --save-dev
 Simply require the plugin and add it in the **plugins** section:
 
 ```javascript
-var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+var OpenBrowserPlugin = require('opn-browser-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, 'lib/entry.js'),
@@ -60,6 +60,10 @@ Optional
 By default this plugin only opens the browser if there's no Webpack errors. Setting ignoreErrors to true will open a new tab no matter the compilation errors.
 
 ## Change Log
+
+### 0.0.6 - 2019-02-15
+#### Fixes
+- Fix npm severity vulnerability.
 
 ### 0.0.5 - 2017-03-09
 #### Fixes

@@ -1,6 +1,6 @@
 {
-  "name": "open-browser-webpack-plugin",
-  "version": "0.0.5",
+  "name": "opn-browser-webpack-plugin",
+  "version": "0.0.6",
   "description": "Opens the browser when Webpack is ready serving your files.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baldore/webpack-open-plugin.git"
+    "url": "git+https://github.com/nfer/opn-browser-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -24,11 +24,11 @@
   "author": "Camilo Orrego",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/baldore/webpack-open-plugin/issues"
+    "url": "https://github.com/nfer/opn-browser-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/baldore/webpack-open-plugin#readme",
+  "homepage": "https://github.com/nfer/opn-browser-webpack-plugin#readme",
   "dependencies": {
-    "open": "0.0.5"
+    "opn": "5.4.0"
   },
   "devDependencies": {
     "webpack": "^1.12.1"
